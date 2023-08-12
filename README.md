@@ -1,2 +1,0 @@
-# ARI-SCBOT
-Bot pribadi
