@@ -187,7 +187,7 @@ var footer_nya =`Creator by - ${setting.ownerName}`
 ┣» .donasi
 ┗━━━━━━━━━━━━━━━━━━◧`
 ramz.sendMessage(from, {text: menu}, {quoted: fkontak})
-ramz.sendMessage(from, {audio: {url: `./gambar/suara.mp3`}, mimetype:'audio/mpeg', ptt:true})
+ramz.sendMessage(from, {audio: {url: `./suara.mp3`}, mimetype:'audio/mpeg', ptt:true})
 }
 break
 case 'mainmenu':{
@@ -276,7 +276,7 @@ let tampilan_nya = `ʜᴀʟʟᴏ ʙʀᴏ.. 👋
 ┗━━━━━━━━━━━━━━━━━━◧`
 ramz.sendMessage(from, {text: tampilan_nya}, {quoted: fkontak})
 }
-ramz.sendMessage(from, {audio: {url: `./gambar/Halo.mp3`}, mimetype:'audio/mpeg', ptt:true})
+ramz.sendMessage(from, {audio: {url: `./Halo.mp3`}, mimetype:'audio/mpeg', ptt:true})
 break
 case 'yt':
 case 'youtube':
