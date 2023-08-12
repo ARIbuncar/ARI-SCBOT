@@ -310,7 +310,7 @@ let tekssss = ` ───「  *DONASI*  」────
 💳PULSA NOMER TRANSAKSI : 081327393959
 berapapun donasi dari kalian itu sangat berarti bagi kami `
 
-ramz.sendMessage(from, { image: fs.readFileSync(`./gambar/qris.jpg`),
+ramz.sendMessage(from, { image: fs.readFileSync(`./qris.jpg`),
  caption: tekssss, 
 footer: `${setting.ownerName} © 2023`},
 {quoted: msg})
@@ -347,7 +347,7 @@ let tekssss = `───「  TRANFER VIA QRIS  」────
 💳LIVIN MANDIRI VIA QRIS
 💳PULSA NOMER TRANSAKSI : 081327393959
 Jika Sudah di tranfer Secrenshoot bukti pembayaran Dan segera saya preses😉`
-ramz.sendMessage(from, { image: fs.readFileSync(`./gambar/qris.jpg`),
+ramz.sendMessage(from, { image: fs.readFileSync(`./qris.jpg`),
  caption: tekssss, 
 footer: `${setting.ownerName} © 2023`},
 {quoted: msg})
